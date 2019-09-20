@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cd036c3-5135-465d-bc3f-f799fdbd150e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java Algorithms/com/Algorithms/pascalTriangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Algorithms/pascalTriangle.java" afterDir="false" />
+    <list default="true" id="4cd036c3-5135-465d-bc3f-f799fdbd150e" name="Default Changelist" comment="Pascal's Triangle">
+      <change beforePath="$PROJECT_DIR$/src/com/Algorithms/pascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Algorithms/pascalTriangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +15,34 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Algorithms/pascalTriangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#904#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/Java Algorithms/com/Algorithms/pascalTriangle.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="31" lean-forward="true" selection-end-line="41" />
+              <folding>
+                <element signature="e#0#904#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -64,43 +84,6 @@
             <path>
               <item name="Java Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Java Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Java Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,12 +151,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7551000" />
+    <option name="totallyTimeSpent" value="8478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -190,7 +174,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946696" visible="true" weight="0.32936078" />
@@ -209,12 +193,33 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="This is the initial commit.&#10;Pascal's Triangle is not actually meant to be in this commit, it is in a branch of its own.&#10;&#10;This repo will include several algorithms in Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is the initial commit.&#10;Pascal's Triangle is not actually meant to be in this commit, it is in a branch of its own.&#10;&#10;This repo will include several algorithms in Java" />
+    <MESSAGE value="Pascal's Triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pascal's Triangle" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/out/production/Java Algorithms/com/Algorithms/pascalTriangle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="31" lean-forward="true" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Algorithms/pascalTriangle.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#904#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
