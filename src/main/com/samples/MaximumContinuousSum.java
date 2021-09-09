@@ -10,6 +10,9 @@
  *
  * SOURCE TYPE : Coding Interview Ninja
  *
+ * RUNNING TIME COMPLEXITY: O(N)
+ * SPACE COMPLEXITY: O(1)
+ *
  *
  * Date 9/9/21, 9:21 PM
  */
