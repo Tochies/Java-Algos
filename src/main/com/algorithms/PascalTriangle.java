@@ -3,10 +3,10 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.Algorithms;
+package com.algorithms;
 
-public class pascalTriangle {
-  public pascalTriangle() {
+public class PascalTriangle {
+  public PascalTriangle() {
   }
 
   public static void main(String[] args) {
