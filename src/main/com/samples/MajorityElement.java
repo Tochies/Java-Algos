@@ -20,6 +20,9 @@ import java.util.Arrays;
  * SOLUTION WEAKNESS : This solution will only work fine if the major element appears sequentially at the end of the array
  * by default, it retuns the major value with the count when the ::findMajCandidate loop ends
  *
+ *
+ * RUNNING TIME COMPLEXITY: O(N)
+ * SPACE COMPLEXITY: O(1)
  */
 public class MajorityElement {
 
