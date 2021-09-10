@@ -22,10 +22,24 @@ public class Utils {
                 .collect(Collectors.toList());
     }
 
+    public static List<Integer> generateSortedRandomNumberList(int size, int min, int max){
+
+        return IntStream.range(0, size)
+                .mapToObj(i -> ThreadLocalRandom.current().nextInt(min, max + 1))
+                .sorted()
+                .collect(Collectors.toList());
+    }
+
     public static int[] generateRandomNumberArray(int size, int min, int max){
 
         return generateRandomNumberList(size, min, max)
                 .stream().mapToInt(i -> i).toArray();
+    }
+
+    public static int[] generateSortedRandomNumberArray(int size, int min, int max){
+
+        return generateRandomNumberList(size, min, max)
+                .stream().mapToInt(i -> i).sorted().toArray();
     }
 
 

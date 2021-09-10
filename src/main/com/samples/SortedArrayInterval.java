@@ -8,6 +8,11 @@
  * input: (1,3), (5,10), (9,31), (12,30)
  * output: (1,3), (5,31)
  *
+ * RUNNING TIME COMPLEXITY:
+ * O(N)
+ * SPACE COMPLEXITY:
+ * O(1)
+ *
  * Date 9/10/21, 12:04 AM
  */
 
