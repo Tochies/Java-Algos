@@ -70,14 +70,18 @@ public class SortedArrayInterval {
         List<Interval> solution = new ArrayList<Interval>();
         Interval last = in.get(0);
         solution.add(last);
+
         for (int i = 1; i < in.size(); i++) {
+
             Interval current = in.get(i);
+
             if (current.start > last.end) {
                 solution.add(current);
                 last = current;
             } else {
                 last.end = Math.max(last.end, current.end);
-            }}
+            }
+        }
         return solution;
     }
 }

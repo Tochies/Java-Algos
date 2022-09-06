@@ -23,6 +23,7 @@ import java.util.Arrays;
 public class ArrayNumberPosition {
 
     public static void main(String[] args) {
+
         System.out.println(binarySearch(Utils.generateSortedRandomNumberArray(5, 1, 5), 5));
     }
 
@@ -36,7 +37,7 @@ public class ArrayNumberPosition {
 
         while (st <= end) {
             int mid = (st + end) / 2; // array length + start
-            if (arr[mid] == num) {      //
+            if (arr[mid] == num) {
                 return mid;
             } else if (num > arr[mid]) {
                 st = mid + 1;
@@ -44,6 +45,7 @@ public class ArrayNumberPosition {
                 end = mid - 1;
             }
         }
-        return Integer.MIN_VALUE; }
+        return Integer.MIN_VALUE;
+    }
 
 }
